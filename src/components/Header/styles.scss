@@ -1,0 +1,214 @@
+.bg-2color-header-top {
+  //   background: #6b4ad9;
+  //   background: -moz-linear-gradient(left, #6b4ad9 1%, #01daaf 100%);
+  //   background: -webkit-linear-gradient(left, #6b4ad9 1%, #01daaf 100%);
+  //   background: linear-gradient(to right, #6b4ad9 1%, #01daaf 100%);
+  //   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b4ad9', endColorstr='#01daaf', GradientType=1);
+  background: #efa799;
+}
+.header {
+  position: relative;
+  z-index: 9999;
+}
+.top-header * {
+  display: inline-block;
+}
+.top-header {
+  padding: 15px 0;
+}
+.top-header.active {
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
+}
+.top-header .link-hover {
+  padding-left: 35px;
+}
+.top-header .link-hover i {
+  margin-left: 4px;
+}
+.top-header .link-hover:hover {
+  color: #000;
+}
+.top-header .title14 {
+  margin-right: 30px;
+}
+.btn-close {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.btn-close:before,
+.btn-close:after {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  top: 10px;
+}
+.btn-close:before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.btn-close:after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.search-box {
+  position: relative;
+}
+.search-box:hover .search-form {
+  opacity: 1;
+  visibility: visible;
+}
+.search-box .search-form {
+  position: absolute;
+  opacity: 0;
+  bottom: -49px;
+  right: 0;
+  min-width: 230px;
+  z-index: 99999;
+  visibility: hidden;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+}
+.search-box .search-form > * {
+  float: left;
+}
+.search-box .search-form input[type="text"],
+.email-form input[type="email"],
+.search-form6 input[type="text"] {
+  border: 1px solid #e5e5e5;
+  padding: 9px 15px;
+  color: #555;
+}
+.search-box .submit,
+.submit6 {
+  width: 39px;
+  height: 39px;
+  line-height: 39px;
+  position: relative;
+}
+.search-box .submit input[type="submit"],
+.email-form .submit input[type="submit"],
+.submit6 input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  z-index: 999;
+  position: relative;
+}
+.search-box .submit:after,
+.email-form .submit:after,
+.submit6:after {
+  font-family: FontAwesome;
+  color: #fff;
+  content: "\f002";
+  font-size: 18px;
+  z-index: 9;
+}
+.sub-header {
+  background: #f7f7f7;
+  padding: 10px 0;
+}
+.box-search-cart li {
+  padding: 0 15px;
+  border-right: 1px solid #e5e5e5;
+}
+.box-search-cart li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.box-search-cart .title12 i {
+  margin-right: 8px;
+}
+.call-us i {
+  margin-right: 7px;
+}
+.logo .title30 {
+  font-weight: 300;
+}
+.main-nav > ul > li.menu-item-has-children > a::after {
+  display: none;
+}
+.main-nav > ul > li > a {
+  font-weight: 400;
+  padding: 0 14px;
+  color: #000;
+}
+.main-nav > ul > li > a > i {
+  font-size: 12px;
+  margin: 0 0 0 2px;
+}
+.main-nav > ul > li:last-child > a {
+  padding-right: 0;
+}
+.main-nav {
+  margin-top: 5px;
+}
+.main-nav > ul > li .sub-menu > li > a {
+  text-transform: capitalize;
+}
+.main-nav .sub-menu li {
+  border-bottom: 1px solid transparent;
+}
+.mega-list-cat .title18 {
+  margin: 0 0 10px;
+}
+.mega-list-cat li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.mega-list-cat li:last-child {
+  border-bottom: none;
+}
+.sale-off > * {
+  display: inline-block;
+}
+.shop-button {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 26px 0 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+.shop-button:after {
+  position: absolute;
+  content: "\f105";
+  font-family: FontAwesome;
+  margin-left: 7px;
+  top: -1px;
+}
+.sale-off {
+  position: relative;
+  margin-top: -20px;
+  padding-right: 19px;
+}
+.sale-off .title30 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 40px;
+  margin: auto auto auto -26px;
+  z-index: 9;
+}
+.sale-off .shop-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto auto auto -32px;
+}
+.sale-off .title260 {
+  position: relative;
+}
+.sale-off .title260 .number {
+  margin: 0 -13px;
+}
+.sale-off .title260 .title60 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0 10px;
+  max-height: 133px;
+  margin: auto 46px auto auto;
+}
