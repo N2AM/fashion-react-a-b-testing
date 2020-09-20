@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Adding SASS
+
+npm install node-sass --save
+
+## Adding React Router
+
+npm install react-router-dom
+
+## LazyLoading on routing
+
+const About = lazy(() => import('./routes/About'));
